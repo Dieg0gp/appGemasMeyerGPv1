@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/my_nav"
-    app:startDestination="@id/storeFragment">
+    app:startDestination="@id/publicidadFragment">
 
     <fragment
         android:id="@+id/userFragment"
@@ -20,4 +20,9 @@
         android:name="com.example.gemasmeyerapp_ver2.Views.ImageFragment"
         android:label="fragment_image"
         tools:layout="@layout/fragment_image" />
+    <fragment
+        android:id="@+id/publicidadFragment"
+        android:name="com.example.gemasmeyerapp_ver2.publicidadFragment"
+        android:label="fragmet_publicidad"
+        tools:layout="@layout/fragment_publicidad" />
 </navigation>

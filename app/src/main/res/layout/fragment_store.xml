@@ -50,8 +50,8 @@
 
             <Button
                 android:id="@+id/btnAr"
-                android:layout_width="121dp"
-                android:layout_height="70dp"
+                android:layout_width="297dp"
+                android:layout_height="51dp"
                 android:background="@drawable/boton_ovalo"
                 android:drawableEnd="@android:drawable/presence_video_away"
                 android:text="@string/btn_ar"
@@ -61,29 +61,9 @@
                 android:visibility="visible"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.982"
+                app:layout_constraintHorizontal_bias="0.598"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.023" />
-
-            <Button
-                android:id="@+id/btnPublicaciones"
-                android:layout_width="184dp"
-                android:layout_height="67dp"
-                android:layout_marginEnd="8dp"
-                android:background="@drawable/boton_ovalo"
-                android:drawableEnd="@android:drawable/presence_away"
-                android:text="@string/btn_publicaciones"
-                android:textColor="#5D1D88"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:visibility="visible"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/btnAr"
-                app:layout_constraintHorizontal_bias="0.929"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.095" />
+                app:layout_constraintTop_toTopOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -99,19 +79,6 @@
             app:layout_constraintHorizontal_bias="0.681"
             app:layout_constraintStart_toEndOf="@+id/txtTituloTienda"
             app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/btn_PerfilvD"
-            android:layout_width="37dp"
-            android:layout_height="48dp"
-            android:background="@drawable/boton_presionado"
-            android:drawableStart="@drawable/programador"
-            app:layout_constraintBottom_toTopOf="@+id/rcView"
-            app:layout_constraintEnd_toStartOf="@+id/txtTituloTienda"
-            app:layout_constraintHorizontal_bias="0.141"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.767" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
